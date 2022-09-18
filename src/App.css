@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  text-align: center;
+}
+
+textarea{
+  min-width: 500px;
+  min-height: 300px;
+}
+
+#preview{
+  margin: 0 auto;
+  width: 50em;
+  border: 2px solid black;
+  height: fit-content;
+}
+
+@media screen and (max-width: 500px) {
+  #preview{
+    width: 500px;
+  }
+}
