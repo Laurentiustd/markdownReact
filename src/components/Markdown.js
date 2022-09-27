@@ -60,7 +60,7 @@ function App() {
       <div className="row">
         <div className="container-test">
           <h2>Enter your Markdown here:</h2>
-          <textarea onChange={changeHandler} id="editor" value={value}/>
+          <textarea onChange={changeHandler} id="editor" value={value} />
         </div>
         <div className="container-preview">
           <h2>Preview your Markdown here:</h2>
